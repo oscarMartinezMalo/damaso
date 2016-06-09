@@ -1,5 +1,5 @@
-﻿/// <reference path="jquery-2.2.1.js" />
-/// <reference path="jquery-2.2.3.js" />
+﻿/// <reference path="jquery-2.2.3.js" />
+/// <reference path="jquery-2.2.1.js" />
 var mq = window.matchMedia("(max-width: 245px)");
 
 $(document).ready(function () {
@@ -25,7 +25,7 @@ function phoneAppears() {
 }
 
 function labelFancyUpDown() {
-    $('.inputContact').focusout(function () {
+    $(".inputContact").focusout(function () {
         if ($(this).val().trim() === "") {
             $(this).removeClass('upPosition');
         } else {
@@ -33,6 +33,9 @@ function labelFancyUpDown() {
         }
     });
 }
+
+
+//Media query
 
 function mediaQueryExecute() {
     if (mq.matches) {
@@ -64,6 +67,7 @@ function supportsGeolovation() {
     // in operator is used to Know is the Object has the property defined
     return 'geolocation' in navigator;
 }
+
 var markerKolfi
 function showPosition(position) {
     var mapCanvas = document.getElementById('map');
@@ -73,7 +77,7 @@ function showPosition(position) {
 
     map = new google.maps.Map(mapCanvas, options);
 
-    //This is your current location
+    //This is Kolfi location
     markerKolfi = new google.maps.Marker({
         map: map,
         title: "Kolfi is here!",
@@ -85,10 +89,12 @@ function showPosition(position) {
     markerKolfi.addListener('click', toggleBounce);
     map.addListener('mouseover', toggleBounce);
 
+
+    //This is your current position
     var markerMe = new google.maps.Marker({
         position: coords,
         map: map,
-        label: "Y",
+        label: "*",
         title: "You are here!"
     });
     service = new google.maps.places.PlacesService(map);
@@ -101,7 +107,6 @@ function toggleBounce() {
         markerKolfi.setAnimation(google.maps.Animation.BOUNCE);
     }
 }
-
 
 function showMessage(message) {
     $('#message').html(message);

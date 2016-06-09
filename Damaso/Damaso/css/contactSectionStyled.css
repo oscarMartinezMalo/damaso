@@ -84,14 +84,19 @@ textarea {
     font-size: 18px;
 }
 
-    input:focus + span, textarea:focus + span {
+p:first-letter{
+    color:black;
+    text-transform:uppercase;
+}
+
+    input:focus + p, textarea:focus + p {
         top: -15px;
         left: 15px;
         font-size: 12px;
         color: black;
     }
 
-    .upPosition + span, textarea:focus + span {
+    .upPosition + p, textarea:focus + p {
         top: -15px;
         left: 15px;
         font-size: 12px;
