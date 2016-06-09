@@ -1,0 +1,63 @@
+﻿#contactSection {
+    background-color: rgba(227, 106, 19, 0.2);
+}
+
+form {
+    max-width: 600px;
+    margin: 0% auto;
+}
+
+input, textarea {
+    border: 2px solid rgba(227, 106, 19, 0.5);
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(227, 106, 19, 0);
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(227, 106, 19, 1);
+}
+
+    input:focus, textarea:focus {
+        outline: none;
+        border-color: rgba(227, 106, 19, 1);
+    }
+
+.contactGroup label:first-child {
+    margin-right: 4%;
+}
+
+.contactGroup label {
+    float: left;
+    width: 48%;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+span, textarea {
+    color: rgba(227, 106, 19, 1);
+}
+
+span {
+    display: block;
+}
+
+input[type='submit'] {
+    width: 100%;
+    background-color: rgba(227, 106, 19, 1);
+    color: black;
+    padding: 5px;
+    margin-bottom:10%;
+}
+
+    input[type='submit']:hover {
+        background-color: rgba(227, 106, 19, 0.5);
+    }
+
+textarea {
+    height: 10em;
+    font-size: 18px; 
+}
