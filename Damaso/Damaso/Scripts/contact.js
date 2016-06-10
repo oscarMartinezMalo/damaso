@@ -15,7 +15,6 @@ $(window).resize(function () {
 })
 
 function phoneAppears() {
-
     $('#phoneIcon').click(function () {
         $("#phoneIcon").remove();
         $("#phoneIconLink").append("<p>876-789-7845</p>");

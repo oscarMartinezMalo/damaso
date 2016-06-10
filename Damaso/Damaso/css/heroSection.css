@@ -40,11 +40,13 @@ h1 {
     width: 226px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    text-shadow: -1px 0 rgba(227, 106, 19, 0.8), 0 -1px rgba(227, 106, 19, 0.8);
+    /*text-shadow: -1px 0 rgba(227, 106, 19, 0.8), 0 -1px rgba(227, 106, 19, 0.8);*/
+        /*text-shadow: -1px 0 black, 0 -1px black;*/
     -webkit-animation: animationBox 2000ms linear both;
     animation: animationBox 2000ms linear both;
     /*margin-left: -112.34px;
     margin-top: -17px;*/
+    color:rgba(227, 106, 19, 0.8);
 }
 
 #boxBorder {

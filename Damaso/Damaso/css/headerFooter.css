@@ -44,7 +44,7 @@ nav ul li {
 
         nav ul li a:hover {
             color: dimgray;
-            text-shadow: 0px 0px 10px gray;
+            /*text-shadow: 0px 0px 10px gray;*/
         }
 /*ul{
     height:40px;
@@ -61,9 +61,17 @@ nav ul li {
     width: 30px;
 }
 
+#phoneIconLink {
+    transition:ease 1s;
+}
+
+
 #phoneIcon {
     height: 30px;
     width: 30px;
+}
+#phoneIcon:hover{
+    cursor:pointer;
 }
 
 footer {
@@ -117,6 +125,9 @@ footer {
     transition: 1s ease;
 }
 
+.logoBurguer:hover{
+    cursor:pointer;
+}
 
 #burguerStyle, #burguerStyle::after, #burguerStyle::before {
     content: '';
