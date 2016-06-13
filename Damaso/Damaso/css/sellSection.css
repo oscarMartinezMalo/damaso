@@ -1,0 +1,89 @@
+﻿#asideImageboxWrap {
+    display: flex;
+}
+
+aside {
+    background-color: rgba(227, 106, 19, 0.5);
+    width: 120px;
+}
+
+    aside ul {
+
+        list-style-type: none;
+        padding: 10px;
+    }
+
+        aside ul content {
+            font-size: 1.2em;
+            color: rgba(227, 106, 19, 1);
+        }
+
+        aside ul li input {
+        }
+
+        aside ul li {
+            text-align: right;
+        }
+
+    aside hr {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+#ImagesBoxSection {
+    /*overflow: auto;*/
+    height: auto;
+    display: block;
+    width: 80%;
+    margin: auto;
+    /*height: auto;*/
+    /*overflow: hidden;*/
+}
+
+#sortBar {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    z-index: 50;
+}
+
+#SellJewelryContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.imageElement {
+    margin: 50px;
+    display: inline-block;
+    width: 150px;
+    height: 280px;
+    text-align: left;
+}
+
+    .imageElement img {
+        width: 150px;
+        height: auto;
+    }
+
+    .imageElement p {
+        margin: 3px;
+        margin-left: 15px;
+    }
+
+    .imageElement input {
+        width: 100%;
+        background-color: rgba(227, 106, 19, 0.5);
+        border: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+        .imageElement input:hover {
+            cursor: pointer;
+        }
+
+    .imageElement hr {
+        width: 80%;
+        border-color: rgba(227, 106, 19, 0.5);
+    }

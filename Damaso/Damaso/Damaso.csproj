@@ -67,8 +67,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\sellJewelry.css" />
+    <Content Include="css\sellSection.css" />
     <Content Include="icons\DiamondMap.png" />
     <Content Include="packages.config" />
+    <Content Include="Products\Invicta,Inv3529,50\1image.jpg" />
+    <Content Include="Products\Invicta,Inv3529,50\2image.jpg" />
+    <Content Include="Products\Invicta,Inv3529,50\3image.jpg" />
+    <Content Include="Products\Invicta,Inv3529,50\4image.jpg" />
+    <Content Include="Products\Invicta,Inv3529,50\5.jpg" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

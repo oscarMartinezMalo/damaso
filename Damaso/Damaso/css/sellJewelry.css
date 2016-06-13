@@ -1,15 +1,17 @@
-﻿body {
+﻿@import url('sellSection.css');
+@import url(headerFooter.css);
+@import url('sideBar.css');
+body {
     margin: 0px;
     padding: 0px;
 }
 
 #container {
     margin-top: 50px;
+    position:relative;
 }
 
 h3 {
-    margin-top: 2%;
-    margin-bottom: 2%;
     background-color: rgba(227, 106, 19, 0.1);
     text-align: center;
     color: rgba(227, 106, 19, 0.9);
@@ -17,6 +19,7 @@ h3 {
     letter-spacing: 0.05em;
     font-family: Georgia;
     font-weight: 200;
+    margin:0px;
 }
 
     h3::first-letter {
@@ -25,29 +28,7 @@ h3 {
         font-size: 1.7em;
     }
 
-aside {
-    background-color: rgba(227, 106, 19, 0.5);
-    width: 150px;
-}
 
-    aside ul {
-        list-style-type: none;
-        padding: 10px;
-        margin: 0px;
-    }
-
-        aside ul content {
-            font-size: 1.2em;
-                color: black;
-        }
-
-
-        aside ul li input {
-        }
-
-        aside ul li {
-            text-align: right;
-        }
 
 /*#sideBar ul li {
         font-size: 16px;

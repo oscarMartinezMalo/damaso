@@ -26,8 +26,10 @@
 .navBarHeader {
     float: right;
     margin-right: 5%;
+    -moz-animation: animationNav 4000ms linear both;
+    -o-animation: animationNav 4000ms linear both;
     -webkit-animation: animationNav 4000ms linear both;
-    animation: animationNav 4000ms linear both;
+    animation: animationNav 4000ms linear both;     
 }
 
 nav ul li {
