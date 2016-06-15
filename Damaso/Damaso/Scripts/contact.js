@@ -17,7 +17,8 @@ $(window).resize(function () {
 function phoneAppears() {
     $('#phoneIcon').click(function () {
         $("#phoneIcon").remove();
-        $("#phoneIconLink").append("<p>876-789-7845</p>");
+        //$("#phoneIconLink").append("<p>876-789-7845</p>");
+        $("#telNumber").slideToggle();
         $("#phoneIconLink").css('top', '0px');
         $("#phoneIconLink").css('width', 'auto');
     });

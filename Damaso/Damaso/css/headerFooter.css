@@ -67,6 +67,9 @@ nav ul li {
     transition:ease 1s;
 }
 
+#telNumber{
+    display:none;
+}
 
 #phoneIcon {
     height: 30px;
